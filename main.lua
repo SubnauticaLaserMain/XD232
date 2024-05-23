@@ -60,10 +60,13 @@ Render.CreateOptionsButton({
 
 
 
-                BoxOutline:Destroy()
+                BoxOutline.Visible = false
             end
         end
     end,
     HoverText = 'Apply ESP to Items',
     Default = false
 })
+
+
+-- loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/XD232/main/XD.lua', true))()
